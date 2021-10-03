@@ -1,5 +1,5 @@
 # MechaCar_Statistical_Analysis
-The purpose fo this project is to create and analyse a Linear Regression Model for fuel efficiency, variance measure and T Test for suspension coils.    XX, XX,  car data using statistical methods such as linear regression model, t tests, mean, standard deviation and others.  
+The purpose fo this project is to create and analyse a Linear Regression Model for fuel efficiency, variance measure and T Test for suspension coils for the MechaCar company using the R studio software.  In addition,  we will also propose a new study that can help benefit the MechaCar company   
 ## Linear Regression to Predict MPG
 Using the MechaCar_mpg data, which consisted of fuel efficiency data of various cars along with vehicle data such as lenght, weight, ground clearance, spoiler angle, and weather or not the vehicle is all wheel drive (AWD), we were able to create a linear regression model to predict fueld efficiency (mpg).  
 1. Variables impacting mpg values: 
