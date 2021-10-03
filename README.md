@@ -1,13 +1,13 @@
 # MechaCar_Statistical_Analysis
 The purpose fo this project is to create and analyse a Linear Regression Model for fuel efficiency, variance measure and T Test for suspension coils for the MechaCar company using the R studio software.  In addition,  we will also propose a new study that can help benefit the MechaCar company   
 ## Linear Regression to Predict MPG
-Using the MechaCar_mpg data, which consisted of fuel efficiency data of various cars along with vehicle data such as lenght, weight, ground clearance, spoiler angle, and weather or not the vehicle is all wheel drive (AWD), we were able to create a linear regression model to predict fueld efficiency (mpg).  
-1. Variables impacting mpg values: 
-The major variables impacting fuel efficiency (mpg) are vehicle lenght, ground clerance and AWD.  Lenght and ground clerance have a positive correlation to mpg, while AWD have a negative correlation. 
+Using the MechaCar_MPG data, which consisted of fuel efficiency data, vehicle lenght, vehicle weight, ground clearance, spoiler angle, and  all wheel drive (AWD) capabilities, we were able to create a linear regression model to predict fueld efficiency (MPG).  
+1. Variables impacting MPG values: 
+The major variables impacting fuel efficiency (MPG) according to our linear reggression model are: vehicle lenght, ground clerance and AWD capabilities.  Lenght and ground clerance have a positive correlation to MPG, while AWD capabilities have a negative correlation with MPG. 
 2.  Slope of Linear model: 
-The slope of the linear model will neither truly be all positive nor all negative.  This is since you have both negative and positive correlations amongst the variables.  However, since AWD only has a value of "0" or "1" and it is the only variable with a negative correlation to mpg, we can say that the linear regression model mostly has a positive slope. 
+The slope of the linear model will neither truly be all positive nor all negative.  This is since you have both negative and positive correlations amongst the variables.  However, since AWD only has a value of "0" or "1" and it is the only variable with a negative correlation to MPG, we can say that the linear regression model mostly has a positive slope. 
 3.  Does the Linear Regression Model predict MPG?
-In order to determine weather a Linear Reggression Model can predict MPG, we will have to look at its R-squared (or Adjusted R-squared) value, this value ranges from 0 to 1. The closer the R-squared is to 1, the better the model is at predicting mpg.  The Adjusted R-squared for this model is "0.6825", while not a perfect robust prediction model, it still holds some merit for this set of data. Take note, overfitting a model by introducing new variables or data can reduce the R-squared value
+In order to determine weather a Linear Reggression Model can predict MPG, we will have to look at its R-squared (or Adjusted R-squared) value, this value ranges from 0 to 1. The closer the R-squared is to 1, the better the model is at predicting MPG.  The Adjusted R-squared for this model is "0.6825", while not a perfect robust prediction model, it still holds some merit for this set of data. Take note, overfitting a model by introducing new variables or data can reduce the R-squared value
 ## Summary Statistics on Suspension Coils
 According to design specifications the vaariance of the suspension coils should not exceed 100 PSI. Lot 1 and Lot 2 have a variance of 1 and 7 psi respectively.  However, lot 3 have a variance of 170 psi and therefore lot 3 does not meet the design specification.  
 
@@ -23,4 +23,4 @@ average maintenance cost of each car by mileage buckets.
 2. Null Hypothesis: 
 The null hypothesis for this study will be "MechaCars have the same maintance cost as our competitors".  We will want to disprove this null hypothesis by showing that the maintance cost of our vehicles is cheaper than our competitors. 
 3. Statistical Test
-For this study the ANOVA analysis will be ideal since it compares variance across sample sizes (our competitor's claim for maintance cost).  
+For this study the ANOVA analysis will be ideal since it compares variance across sample sizes (our competitor's claim for maintance cost. 
