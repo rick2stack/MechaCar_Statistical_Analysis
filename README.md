@@ -23,4 +23,4 @@ average maintenance cost of each car by mileage buckets.
 2. Null Hypothesis: 
 The null hypothesis for this study will be "MechaCars have the same maintance cost as our competitors".  We will want to disprove this null hypothesis by showing that the maintance cost of our vehicles is cheaper than our competitors. 
 3. Statistical Test
-For this study the ANOVA analysis will be ideal since it compares variance across sample sizes (our competitor's claim for maintance cost. 
+For this study the Linear reggresion model will be ideal, since this will allow us to predict maintanence of a car for each year own, we will then be able to compare it to our competitor's claim. 
